@@ -5,7 +5,7 @@ function DataFetch() {
   const [data, setData] = useState(null)
   useEffect(() => {
     const getData = async () => {
-      let fetched = await fetch("https://api.escuelajs.co/api/v1/products")
+      let fetched = await fetch("https://fakestoreapi.com/products")
       let response = await fetched.json()
       console.log(response)
       setData(response)
@@ -18,7 +18,7 @@ function DataFetch() {
         data && data.map((e) => (
           <div key={e.id} id='submain'>
             
-            <img src={e.images} />
+            <img src={e.image} />
             <h3>{e.title}</h3>
             <h3>$ {e.price}</h3>
             </div>
