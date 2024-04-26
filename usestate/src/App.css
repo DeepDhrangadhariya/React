@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.productImg{
+  width: 600px;
+  height: 400px;
+}
+button{
+  width: 150px;
+  height: 50px;
+}
