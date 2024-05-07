@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.main{
+  height: 100vh;
+  max-width: 100%;
+  display: grid;
+  place-items: center;
+  background-color: burlywood;
+}
+
+h1{
+  color: white;
+  text-decoration: underline orange 3px;
+}
+
+h4{
+  color: white;
+}
+
+form{
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  height: 30px;
+  width: 250px;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  margin: 25px 0px;
+}
+button{
+  height: 30px;
+  width: 75px;
+  border: none;
+  border-radius: 12px;
+  margin: 20px 0px;
+}
+
+.box{
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-color: cadetblue;
+}
+
+table{
+  background-color: brown;
+  position: relative;
+}
+th{
+  background-color: black;
+}
+th,td{
+  border: 1px solid wheat;
+  color: white;
+  width: 85px;
+  height: 28px;
+}
+
+table button{
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  margin: 45px 0px;
+}
