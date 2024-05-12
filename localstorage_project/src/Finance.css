@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.total {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.balance {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.income-container,
+.expense-container {
+    margin-top: 30px;
+    display: inline-block; /* Display containers inline */
+    width: 50%; /* Each container takes up 50% of the width */
+    vertical-align: top; /* Align containers to the top */
+    box-sizing: border-box;
+    position: relative; /* Add position relative for positioning the pseudo-element */
+    padding-right: 5px; /* Add some space between containers */
+    border-right: 1px solid #ccc; /* Add border to the right of the income container */
+}
+
+.expense-container {
+    border-left: 1px solid #ccc; /* Add border to the left of the expense container */
+}
+
+.income-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -1px; /* Position the line at the border of the income container */
+    height: 100%; /* Full height of the container */
+    width: 1px; /* Width of the line */
+    background-color: #ccc; /* Color of the line */
+    z-index: 1; /* Ensure the line is in front of other content */
+}
+
+.entry {
+    padding: 8px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.entry span {
+    flex: 1;
+}
+
+.income {
+    color: #4CAF50;
+}
+
+.expense {
+    color: #f44336;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
