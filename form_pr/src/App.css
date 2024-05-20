@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.heading{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  border: 2px solid black;
+}
+.mp{
+  border: 2px solid black;
+}
