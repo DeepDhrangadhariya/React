@@ -1,0 +1,67 @@
+/* App.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background: white;
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #777;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin: 20px auto;
+  width: 80%;
+  border: none;
+  border-top: 2px solid #eee;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  margin: 10px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.btn-success {
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  color: white;
+}
+
+button.btn-success:hover {
+  background: linear-gradient(135deg, #56c6e9, #197ca1);
+}
+
+button.btn-danger {
+  background: linear-gradient(135deg, #f7797d, #c0392b);
+  color: white;
+}
+
+button.btn-danger:hover {
+  background: linear-gradient(135deg, #f5565d, #a12823);
+}
