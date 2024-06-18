@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+.loader{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+  gap: 20px;
+}
+.submain{
+  box-shadow: 0px 0px 8px lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.submain img{
+  width: 400px;
+  height: 400px;
+}
