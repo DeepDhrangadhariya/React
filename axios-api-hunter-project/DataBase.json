@@ -1,0 +1,19 @@
+{
+  "Products": [
+    {
+      "id": "9c48",
+      "title": "MacBook",
+      "price": "120"
+    },
+    {
+      "id": "8690",
+      "title": "iPhone",
+      "price": "80"
+    },
+    {
+      "id": "bdd6",
+      "title": "iWatch",
+      "price": "37"
+    }
+  ]
+}
